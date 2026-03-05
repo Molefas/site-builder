@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "id": "site-builder",
+  "name": "Site Builder",
+  "description": "Build static websites and landing pages through conversation — creates HTML, CSS, and JavaScript files in a sandboxed workspace",
+  "version": "0.1.0",
+  "agent": {
+    "mode": "conversational",
+    "handoffDescription": "Builds static websites and landing pages through conversation — creates project structure, writes HTML/CSS/JS, iterates on feedback, and can serve for live preview",
+    "systemPromptFile": "./src/prompts/system.md",
+    "model": {
+      "capabilities": ["tool_use"]
+    },
+    "domain": ["web development", "static sites", "landing pages", "HTML", "CSS"]
+  },
+  "tools": {},
+  "capabilities": {
+    "filesystem": {
+      "enabled": true
+    },
+    "shell": {
+      "enabled": true,
+      "exposePorts": [3000]
+    }
+  },
+  "config": {
+    "required": [
+      {
+        "key": "ANTHROPIC_API_KEY",
+        "description": "Anthropic API key for the trik's internal LLM"
+      }
+    ]
+  },
+  "entry": {
+    "module": "./dist/agent.js",
+    "export": "default"
+  }
+}

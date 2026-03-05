@@ -1,0 +1,12 @@
+{
+  "displayName": "Site Builder",
+  "shortDescription": "Build static websites and landing pages through conversation",
+  "categories": ["web", "demo", "development"],
+  "keywords": ["website", "html", "css", "landing-page", "web-development"],
+  "author": {
+    "name": "Molefas",
+    "github": "Molefas"
+  },
+  "repository": "https://github.com/Molefas/site-builder",
+  "homepage": "https://github.com/Molefas/site-builder"
+}
