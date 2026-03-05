@@ -1,6 +1,6 @@
 {
   "name": "@molefas/site-builder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build static websites and landing pages through conversation",
   "type": "module",
   "main": "dist/agent.js",
@@ -12,7 +12,7 @@
     "@langchain/anthropic": "^0.3.0",
     "@langchain/core": "^0.3.0",
     "@langchain/langgraph": "^0.2.0",
-    "@trikhub/sdk": "latest",
+    "@trikhub/sdk": "dev",
     "zod": "^3.25.0"
   },
   "devDependencies": {
