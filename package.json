@@ -12,7 +12,7 @@
     "@langchain/anthropic": "^0.3.0",
     "@langchain/core": "^0.3.0",
     "@langchain/langgraph": "^0.2.0",
-    "@trikhub/sdk": "dev",
+    "@trikhub/sdk": "0.18.0",
     "zod": "^3.25.0"
   },
   "devDependencies": {

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "site-builder",
   "name": "Site Builder",
-  "description": "Build static websites and landing pages through conversation — creates HTML, CSS, and JavaScript files in a sandboxed workspace",
+  "description": "A demo Trik to build static websites and landing pages through conversation — creates HTML, CSS, and JavaScript files in a sandboxed workspace",
   "version": "0.1.1",
   "agent": {
     "mode": "conversational",
@@ -11,7 +11,7 @@
     "model": {
       "capabilities": ["tool_use"]
     },
-    "domain": ["web development", "static sites", "landing pages", "HTML", "CSS"]
+    "domain": ["web development", "static sites", "landing pages", "HTML", "CSS, demo"]
   },
   "tools": {},
   "capabilities": {

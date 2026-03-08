@@ -1,2 +1,2 @@
-declare const _default: import("@trikhub/manifest").TrikAgent;
+declare const _default: import("@trikhub/sdk").TrikAgent;
 export default _default;
