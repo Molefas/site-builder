@@ -1,6 +1,6 @@
 {
   "name": "@molefas/site-builder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Build static websites and landing pages through conversation",
   "type": "module",
   "main": "dist/agent.js",

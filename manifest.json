@@ -3,7 +3,7 @@
   "id": "site-builder",
   "name": "Site Builder",
   "description": "A demo Trik to build static websites and landing pages through conversation — creates HTML, CSS, and JavaScript files in a sandboxed workspace",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "agent": {
     "mode": "conversational",
     "handoffDescription": "Builds static websites and landing pages through conversation — creates project structure, writes HTML/CSS/JS, iterates on feedback, and can serve for live preview",
